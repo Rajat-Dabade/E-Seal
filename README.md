@@ -15,7 +15,7 @@ make sure that you have set the evnironment variables for php
 
 After completing this stuff the<pre>"vendor"</pre> folder will appear which will carry all the dependencies of the project.
 
-Then go to :<pre>verdor/slim</pre> folder and search for the file <h6>".htaccess"</h6> and copy that file and paste it into the <pre>"public"</pre> folder.
+Then go to :<pre>vendor/slim</pre> folder and search for the file <h6>".htaccess"</h6> and copy that file and paste it into the <pre>"public"</pre> folder.
 
 Go to :<pre>php_authentication/app/config/</pre> folder and check the appropiate development and production file and configure it according to your configuration(The mode of the file is been decided in the <pre>php_authentication/mode.php file)</p>
 
