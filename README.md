@@ -13,7 +13,7 @@ This all technologies makes our product secure and user friendly.
 First of all what you want to do is go to the php_authentication folder and open cmd and fire the command:<h5> php composer.phar update</h5>
 make sure that you have set the evnironment variables for php
 
-After completing this stuff the<pre>"verdor"</pre> folder will appear which will carry all the dependencies of the project.
+After completing this stuff the<pre>"vendor"</pre> folder will appear which will carry all the dependencies of the project.
 
 Then go to :<pre>verdor/slim</pre> folder and search for the file <h6>".htaccess"</h6> and copy that file and paste it into the <pre>"public"</pre> folder.
 
