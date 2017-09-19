@@ -11,13 +11,13 @@ This all technologies makes our product secure and user friendly.
 <h4>For the web requirements</h4>
 
 First of all what you want to do is go to the php_authentication folder and open cmd and fire the command:<h5> php composer.phar update</h5>
-make sure that you have set the evnironment variables for php
+make sure that you have set the environment variables for php
 
 After completing this stuff the<pre>"vendor"</pre> folder will appear which will carry all the dependencies of the project.
 
 Then go to :<pre>vendor/slim</pre> folder and search for the file <h6>".htaccess"</h6> and copy that file and paste it into the <pre>"public"</pre> folder.
 
-Go to :<pre>php_authentication/app/config/</pre> folder and check the appropiate development and production file and configure it according to your configuration(The mode of the file is been decided in the <pre>php_authentication/mode.php file)</p>
+Go to :<pre>php_authentication/app/config/</pre> folder and check the appropriate development and production file and configure it according to your configuration(The mode of the file is been decided in the <pre>php_authentication/mode.php file)</p>
 
 
 <h3>Then the database part:</h3>
