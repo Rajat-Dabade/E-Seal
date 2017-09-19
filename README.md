@@ -1,6 +1,6 @@
 <h1>E-Seal</h1>
 
-<h3>Discription for the project</h3>
+<h3>Description for the project</h3>
 <p>This project mainly focuses on the security to transfer the file from one portal to the another one securely. Our core part lies in its encryption techniques. As we upload the file on server it is encrypted with the help of AES Encryption creating a symmetric key. If we store the symmetric key on the server, there is a chance of server being hacked and the file may get decrypted. So, for this we have encrypted the symmetric key with the help of RSA algorithm using public key which is available to all. Other part of our project is the local software we made for decryption. This software needs encrypted file as well as encrypted symmetric key to decrypt the whole file. This software includes the private key to decrypt the file which is embedded in the code itself(The code is binary compiled hence the code cannot be retrieved). But if the software is stolen the file may get decrypted, so for this we have a USB stick as a key to run the software. This USB stick is only with authorised people. To make USB a key we have a centralized management which can convert any USB to a key as well as remove any USB as a key.
 
 This website is made by Slim and Twig Framework followed by its dependencies. This framework prevents SQL injection as well as CSRF attack.
